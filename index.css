@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    height: 100%;
+}
+
+.catalogo {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+}
+
+.producto img {
+    width: 5rem;
+    height: 5rem;
+}
+.eliminar {
+    background: #2c3e50;
+    color: white;
+    border: 1px solid #2c3e50;
+    border-radius: 0.5rem;
+  
+}
